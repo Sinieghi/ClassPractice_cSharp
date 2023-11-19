@@ -27,7 +27,6 @@ namespace Exercise
 
             if (Response == 1)
             {
-
                 Console.WriteLine("Deseja fazer um depósito de qualquer valor ou sacar? 1 para sacar 2 para depósito ");
                 bool Chose = Console.ReadLine() == "2" && true || false;
                 if (Chose)
@@ -76,26 +75,26 @@ namespace Exercise
             Console.WriteLine(ac.AccountNum);
             Console.WriteLine(ac.Name);
             Console.WriteLine(ac.Balance);
-            NotifyUser(Action);
+            NotifyUser(Action, ac.AccountNum, ac.Name, ac.Balance);
 
         }
 
-        static void NotifyUser(string action)
+        static void NotifyUser(string action, int n, string nm, double b)
         {
 
-            // Console.WriteLine($"Pronto ação {action} realizada com sucesso");
-            // if (action == "saque")
-            // {
+            Console.WriteLine($"Pronto ação {action} realizada com sucesso");
+            if (action == "saque")
+            {
 
-            //     Console.WriteLine($"Valor sacado {ac.Balance}");
-            // }
-            // else if (action == "depósito")
-            // {
+                Console.WriteLine($"Valor sacado {b}");
+            }
+            else if (action == "depósito")
+            {
 
-            //     Console.WriteLine($"{ac.Balance}");
-            // }
+                Console.WriteLine($"{b}");
+            }
 
-            // Console.WriteLine($"Titular: {ac.Name} saldo conta {ac.AccountNum}");
+            Console.WriteLine($"Titular: {nm} saldo conta {b}");
         }
 
         static string PassHandler(bool isChange)

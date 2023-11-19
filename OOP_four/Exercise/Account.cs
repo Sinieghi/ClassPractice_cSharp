@@ -25,13 +25,29 @@ namespace Exercise
             Name = name;
             Balance = balance;
         }
-
         public bool IsNewAccount = false;
         public string Name { get; set; }
-        public int AccountNum { get; private set; }
+        private int _accountNum;
         private double _balance = 0;
-        public string Password { private get; set; }
+        public string _password;
+        public string Password
+        {
+            private get
+            {
+                return _password;
+            }
+            set
+            {
+                if (value.Length != 4)
+                {
 
+                    Console.WriteLine("A senha precisa ter 4 dígitos");
+                    return;
+                }
+                else
+                    _password = value;
+            }
+        }
         public double Balance
         {
             get
@@ -47,6 +63,24 @@ namespace Exercise
                 }
                 if (value < 0) value -= 5;
                 _balance = value;
+            }
+        }
+        public int AccountNum
+        {
+            get
+            {
+
+                return _accountNum;
+            }
+            set
+            {
+                if (value.ToString().Length != 4)
+                {
+                    Console.WriteLine("Numero da conta precisa ter 4 dígitos");
+                    return;
+                }
+                else
+                    _accountNum = value;
             }
         }
 

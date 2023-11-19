@@ -12,3 +12,4 @@ E:\doc\c#OOP\OOP_four\Exercise\obj\Debug\net8.0\refint\Exercise.dll
 E:\doc\c#OOP\OOP_four\Exercise\obj\Debug\net8.0\Exercise.pdb
 E:\doc\c#OOP\OOP_four\Exercise\obj\Debug\net8.0\Exercise.genruntimeconfig.cache
 E:\doc\c#OOP\OOP_four\Exercise\obj\Debug\net8.0\ref\Exercise.dll
+E:\doc\c#OOP\OOP_four\Exercise\obj\Debug\net8.0\Exercise.sourcelink.json
