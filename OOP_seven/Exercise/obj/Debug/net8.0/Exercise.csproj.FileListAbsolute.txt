@@ -1,0 +1,15 @@
+E:\doc\c#OOP\OOP_seven\Exercise\bin\Debug\net8.0\Exercise.exe
+E:\doc\c#OOP\OOP_seven\Exercise\bin\Debug\net8.0\Exercise.deps.json
+E:\doc\c#OOP\OOP_seven\Exercise\bin\Debug\net8.0\Exercise.runtimeconfig.json
+E:\doc\c#OOP\OOP_seven\Exercise\bin\Debug\net8.0\Exercise.dll
+E:\doc\c#OOP\OOP_seven\Exercise\bin\Debug\net8.0\Exercise.pdb
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\Exercise.GeneratedMSBuildEditorConfig.editorconfig
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\Exercise.AssemblyInfoInputs.cache
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\Exercise.AssemblyInfo.cs
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\Exercise.csproj.CoreCompileInputs.cache
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\Exercise.sourcelink.json
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\Exercise.dll
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\refint\Exercise.dll
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\Exercise.pdb
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\Exercise.genruntimeconfig.cache
+E:\doc\c#OOP\OOP_seven\Exercise\obj\Debug\net8.0\ref\Exercise.dll
