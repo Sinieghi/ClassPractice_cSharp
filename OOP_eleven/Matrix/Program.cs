@@ -42,7 +42,7 @@ namespace Practice
             n = 0;
             int x = 0;
             int b = 0;
-            List<double> nVal = new List<double>() { };
+            List<double> nVal = [];
             while (n < nc)
             {
                 if (x != nc)
