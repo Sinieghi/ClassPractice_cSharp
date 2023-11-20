@@ -1,0 +1,15 @@
+E:\doc\c#OOP\OOP_eleven\Matrix\bin\Debug\net8.0\Matrix.exe
+E:\doc\c#OOP\OOP_eleven\Matrix\bin\Debug\net8.0\Matrix.deps.json
+E:\doc\c#OOP\OOP_eleven\Matrix\bin\Debug\net8.0\Matrix.runtimeconfig.json
+E:\doc\c#OOP\OOP_eleven\Matrix\bin\Debug\net8.0\Matrix.dll
+E:\doc\c#OOP\OOP_eleven\Matrix\bin\Debug\net8.0\Matrix.pdb
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\Matrix.GeneratedMSBuildEditorConfig.editorconfig
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\Matrix.AssemblyInfoInputs.cache
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\Matrix.AssemblyInfo.cs
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\Matrix.csproj.CoreCompileInputs.cache
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\Matrix.sourcelink.json
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\Matrix.dll
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\refint\Matrix.dll
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\Matrix.pdb
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\Matrix.genruntimeconfig.cache
+E:\doc\c#OOP\OOP_eleven\Matrix\obj\Debug\net8.0\ref\Matrix.dll

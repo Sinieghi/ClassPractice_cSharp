@@ -1,0 +1,15 @@
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\Employees.GeneratedMSBuildEditorConfig.editorconfig
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\Employees.AssemblyInfoInputs.cache
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\Employees.AssemblyInfo.cs
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\Employees.csproj.CoreCompileInputs.cache
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\Employees.sourcelink.json
+E:\doc\c#OOP\OOP_ten\Employees\bin\Debug\net8.0\Employees.exe
+E:\doc\c#OOP\OOP_ten\Employees\bin\Debug\net8.0\Employees.deps.json
+E:\doc\c#OOP\OOP_ten\Employees\bin\Debug\net8.0\Employees.runtimeconfig.json
+E:\doc\c#OOP\OOP_ten\Employees\bin\Debug\net8.0\Employees.dll
+E:\doc\c#OOP\OOP_ten\Employees\bin\Debug\net8.0\Employees.pdb
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\Employees.dll
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\refint\Employees.dll
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\Employees.pdb
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\Employees.genruntimeconfig.cache
+E:\doc\c#OOP\OOP_ten\Employees\obj\Debug\net8.0\ref\Employees.dll

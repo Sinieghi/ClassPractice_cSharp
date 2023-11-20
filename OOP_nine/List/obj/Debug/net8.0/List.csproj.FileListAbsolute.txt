@@ -1,0 +1,15 @@
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\List.GeneratedMSBuildEditorConfig.editorconfig
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\List.AssemblyInfoInputs.cache
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\List.AssemblyInfo.cs
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\List.csproj.CoreCompileInputs.cache
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\List.sourcelink.json
+E:\doc\c#OOP\OOP_nine\List\bin\Debug\net8.0\List.exe
+E:\doc\c#OOP\OOP_nine\List\bin\Debug\net8.0\List.deps.json
+E:\doc\c#OOP\OOP_nine\List\bin\Debug\net8.0\List.runtimeconfig.json
+E:\doc\c#OOP\OOP_nine\List\bin\Debug\net8.0\List.dll
+E:\doc\c#OOP\OOP_nine\List\bin\Debug\net8.0\List.pdb
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\List.dll
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\refint\List.dll
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\List.pdb
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\List.genruntimeconfig.cache
+E:\doc\c#OOP\OOP_nine\List\obj\Debug\net8.0\ref\List.dll
