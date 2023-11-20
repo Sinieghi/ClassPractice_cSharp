@@ -42,15 +42,14 @@ namespace Practice
             n = 0;
             int x = 0;
             int b = 0;
-            double[] nVal = new double[mtr.Length];
+            List<double> nVal = new List<double>() { };
             while (n < nc)
             {
                 if (x != nc)
                 {
                     if (mtr[x, n] < 0)
                     {
-                        nVal[b] = mtr[x, n];
-                        Console.WriteLine(mtr[x, n]);
+                        nVal.Add(mtr[x, n]);
                         b++;
                     }
                     if (n == nc - 1)
@@ -59,6 +58,13 @@ namespace Practice
                         n = -1;
                     }
                 }
+                n++;
+            }
+            n = 0;
+            while (n < nVal.Count)
+            {
+
+                Console.WriteLine(nVal);
                 n++;
             }
         }
