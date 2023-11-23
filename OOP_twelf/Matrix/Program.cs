@@ -7,10 +7,12 @@ namespace Practice
         static void Main(string[] args)
         {
             Console.WriteLine("Order of this matrix: ");
+
             int nc = int.Parse(Console.ReadLine());
             int nl = int.Parse(Console.ReadLine());
             double[,] mtr = new double[nl, nc];
             int n = 0;
+
             for (int i = 0; i < nl; i++)
             {
                 int b = 0;
@@ -20,7 +22,7 @@ namespace Practice
                     b++;
                 }
             }
-            n = 0;
+
             // user choose which number he's want
             for (int i = 0; i < nl; i++)
             {
@@ -32,9 +34,10 @@ namespace Practice
                 }
                 Console.WriteLine(" ");
             }
-            Console.WriteLine("Chose a number inside of this matrix:");
-            int k = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("Chose a number inside of this matrix:");
+
+            int k = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < nl; i++)
             {
