@@ -1,0 +1,15 @@
+E:\doc\c#OOP\OOP_thirteen\Entities\bin\Debug\net8.0\Entities.exe
+E:\doc\c#OOP\OOP_thirteen\Entities\bin\Debug\net8.0\Entities.deps.json
+E:\doc\c#OOP\OOP_thirteen\Entities\bin\Debug\net8.0\Entities.runtimeconfig.json
+E:\doc\c#OOP\OOP_thirteen\Entities\bin\Debug\net8.0\Entities.dll
+E:\doc\c#OOP\OOP_thirteen\Entities\bin\Debug\net8.0\Entities.pdb
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\Entities.dll
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\refint\Entities.dll
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\Entities.pdb
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache
+E:\doc\c#OOP\OOP_thirteen\Entities\obj\Debug\net8.0\ref\Entities.dll
