@@ -1,0 +1,15 @@
+E:\doc\c#OOP\OOP_sixteen\Inheritance\bin\Debug\net8.0\Inheritance.exe
+E:\doc\c#OOP\OOP_sixteen\Inheritance\bin\Debug\net8.0\Inheritance.deps.json
+E:\doc\c#OOP\OOP_sixteen\Inheritance\bin\Debug\net8.0\Inheritance.runtimeconfig.json
+E:\doc\c#OOP\OOP_sixteen\Inheritance\bin\Debug\net8.0\Inheritance.dll
+E:\doc\c#OOP\OOP_sixteen\Inheritance\bin\Debug\net8.0\Inheritance.pdb
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\Inheritance.AssemblyInfoInputs.cache
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\Inheritance.AssemblyInfo.cs
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\Inheritance.csproj.CoreCompileInputs.cache
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\Inheritance.sourcelink.json
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\Inheritance.dll
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\refint\Inheritance.dll
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\Inheritance.pdb
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\Inheritance.genruntimeconfig.cache
+E:\doc\c#OOP\OOP_sixteen\Inheritance\obj\Debug\net8.0\ref\Inheritance.dll

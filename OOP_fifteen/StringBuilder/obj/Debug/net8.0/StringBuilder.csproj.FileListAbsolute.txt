@@ -1,0 +1,15 @@
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\bin\Debug\net8.0\StringBuilder.exe
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\bin\Debug\net8.0\StringBuilder.deps.json
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\bin\Debug\net8.0\StringBuilder.runtimeconfig.json
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\bin\Debug\net8.0\StringBuilder.dll
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\bin\Debug\net8.0\StringBuilder.pdb
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\StringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\StringBuilder.AssemblyInfoInputs.cache
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\StringBuilder.AssemblyInfo.cs
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\StringBuilder.csproj.CoreCompileInputs.cache
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\StringBuilder.sourcelink.json
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\StringBuilder.dll
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\refint\StringBuilder.dll
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\StringBuilder.pdb
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\StringBuilder.genruntimeconfig.cache
+E:\doc\c#OOP\OOP_fifteen\StringBuilder\obj\Debug\net8.0\ref\StringBuilder.dll
