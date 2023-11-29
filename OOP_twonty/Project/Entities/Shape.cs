@@ -1,0 +1,18 @@
+using System;
+
+namespace Practice
+{
+    abstract class Shape
+    {
+        public Color Color { get; set; }
+
+        public Shape() { }
+        public Shape(Color color)
+        {
+            Color = color;
+        }
+
+
+        public abstract double CalcArea();
+    }
+}

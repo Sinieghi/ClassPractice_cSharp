@@ -1,0 +1,15 @@
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\Project.AssemblyInfoInputs.cache
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\Project.AssemblyInfo.cs
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\Project.csproj.CoreCompileInputs.cache
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\Project.sourcelink.json
+E:\doc\c#OOP\OOP_twonty\Project\bin\Debug\net8.0\Project.exe
+E:\doc\c#OOP\OOP_twonty\Project\bin\Debug\net8.0\Project.deps.json
+E:\doc\c#OOP\OOP_twonty\Project\bin\Debug\net8.0\Project.runtimeconfig.json
+E:\doc\c#OOP\OOP_twonty\Project\bin\Debug\net8.0\Project.dll
+E:\doc\c#OOP\OOP_twonty\Project\bin\Debug\net8.0\Project.pdb
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\Project.dll
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\refint\Project.dll
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\Project.pdb
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\Project.genruntimeconfig.cache
+E:\doc\c#OOP\OOP_twonty\Project\obj\Debug\net8.0\ref\Project.dll
