@@ -1,0 +1,15 @@
+E:\doc\c#OOP\OOP_twentytwo\Room\bin\Debug\net8.0\Room.exe
+E:\doc\c#OOP\OOP_twentytwo\Room\bin\Debug\net8.0\Room.deps.json
+E:\doc\c#OOP\OOP_twentytwo\Room\bin\Debug\net8.0\Room.runtimeconfig.json
+E:\doc\c#OOP\OOP_twentytwo\Room\bin\Debug\net8.0\Room.dll
+E:\doc\c#OOP\OOP_twentytwo\Room\bin\Debug\net8.0\Room.pdb
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\Room.GeneratedMSBuildEditorConfig.editorconfig
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\Room.AssemblyInfoInputs.cache
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\Room.AssemblyInfo.cs
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\Room.csproj.CoreCompileInputs.cache
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\Room.sourcelink.json
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\Room.dll
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\refint\Room.dll
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\Room.pdb
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\Room.genruntimeconfig.cache
+E:\doc\c#OOP\OOP_twentytwo\Room\obj\Debug\net8.0\ref\Room.dll
