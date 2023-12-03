@@ -5,9 +5,20 @@ namespace ChessGame
     {
         static void Main(string[] args)
         {
-            Board b = new Board(4, 4);
-            Console.WriteLine(b);
-            Screen.PrintBoard(b);
+            try
+            {
+                Board b = new Board(8, 8);
+
+                b.PushPiece(new Tower(b, Color.Black), new Position(0, 0));
+                b.PushPiece(new Tower(b, Color.Black), new Position(1, 3));
+                b.PushPiece(new King(b, Color.Black), new Position(2, 4));
+                b.PushPiece(new King(b, Color.Black), new Position(0, 0));
+                Screen.PrintBoard(b);
+            }
+            catch (BoardException e)
+            {
+                Console.WriteLine(e);
+            }
         }
     }
 

@@ -10,11 +10,49 @@ namespace ChessGame
         {
             this.line = line;
             this.column = column;
-            this.pieces = new Piece[line, column];
+            pieces = new Piece[line, column];
         }
-        public Piece peace(int line, int column)
+        public Piece setPiece(int line, int column)
         {
             return pieces[line, column];
+        }
+
+        public Piece setPiece(Position pos)
+        {
+            return pieces[pos.line, pos.column];
+        }
+
+        public void PushPiece(Piece piece, Position pos)
+        {
+            if (existPiece(pos))
+            {
+                throw new BoardException("You can't override positions");
+            }
+            this.pieces[pos.line, pos.column] = piece;
+            piece.Position = pos;
+
+        }
+
+        public bool existPiece(Position pos)
+        {
+            validatePositionError(pos);
+            return setPiece(pos) != null;
+        }
+
+        public bool validatePosition(Position pos)
+        {
+            if (pos.line < 0 || pos.line >= line || pos.column < 0 || pos.column >= column)
+            {
+                return false;
+            }
+            return true;
+        }
+        public void validatePositionError(Position pos)
+        {
+            if (!validatePosition(pos))
+            {
+                throw new BoardException("Invalide position");
+            }
         }
 
     }

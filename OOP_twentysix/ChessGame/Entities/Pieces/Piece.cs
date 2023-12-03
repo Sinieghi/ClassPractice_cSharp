@@ -8,9 +8,9 @@ namespace ChessGame
         public int MovementCount { get; private set; }
         public Board board { get; protected set; }
 
-        public Piece(Position position, Board board, Color color)
+        public Piece(Board board, Color color)
         {
-            Position = position;
+            Position = null;
             this.board = board;
             this.color = color;
             MovementCount = 0;
