@@ -12,7 +12,7 @@ namespace ChessGame
                 b.PushPiece(new Tower(b, Color.Black), new Position(0, 0));
                 b.PushPiece(new Tower(b, Color.Black), new Position(1, 3));
                 b.PushPiece(new King(b, Color.Black), new Position(2, 4));
-                b.PushPiece(new King(b, Color.Black), new Position(0, 0));
+                b.PushPiece(new Tower(b, Color.White), new Position(3, 5));
                 Screen.PrintBoard(b);
             }
             catch (BoardException e)
