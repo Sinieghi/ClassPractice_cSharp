@@ -15,6 +15,10 @@ namespace ChessGame
             this.color = color;
             MovementCount = 0;
         }
+        public void IncrementMovementQnt()
+        {
+            MovementCount++;
+        }
     }
 
 }

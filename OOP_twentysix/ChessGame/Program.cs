@@ -7,13 +7,18 @@ namespace ChessGame
         {
             try
             {
-                Board b = new Board(8, 8);
-
-                b.PushPiece(new Tower(b, Color.Black), new Position(0, 0));
-                b.PushPiece(new Tower(b, Color.Black), new Position(1, 3));
-                b.PushPiece(new King(b, Color.Black), new Position(2, 4));
-                b.PushPiece(new Tower(b, Color.White), new Position(3, 5));
-                Screen.PrintBoard(b);
+                ChessMatch game = new ChessMatch();
+                while (!game.Ended)
+                {
+                    // Console.Clear();
+                    Screen.PrintBoard(game.Boar);
+                    Console.WriteLine("Origin: ");
+                    Position origin = Screen.ReadPositionChess().ToPosition();
+                    Console.WriteLine("Destiny: ");
+                    Position destiny = Screen.ReadPositionChess().ToPosition();
+                    game.Movement(origin, destiny);
+                }
+                Screen.PrintBoard(game.Boar);
             }
             catch (BoardException e)
             {
