@@ -13,16 +13,7 @@ namespace ChessGame
                 Console.Write(8 - i + " ");
                 while (j < board.column - 1)
                 {
-                    if (board.setPiece(i, j) == null)
-                    {
-                        Console.Write("- ");
-                    }
-                    else
-                    {
-                        PrintPiece(board.setPiece(i, j));
-
-                        Console.Write(" ");
-                    }
+                    PrintPiece(board.setPiece(i, j));
                     j++;
                 }
                 Console.WriteLine();
@@ -39,16 +30,26 @@ namespace ChessGame
         }
         public static void PrintPiece(Piece piece)
         {
-            if (piece.color == Color.Black)
+            if (piece == null)
             {
-                Console.Write(piece);
+                Console.Write("- ");
             }
             else
             {
-                ConsoleColor ax = Console.ForegroundColor;
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.Write(piece);
-                Console.ForegroundColor = ax;
+
+                if (piece.color == Color.Black)
+                {
+                    Console.Write(piece);
+                }
+                else
+                {
+                    ConsoleColor ax = Console.ForegroundColor;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write(piece);
+                    Console.ForegroundColor = ax;
+                }
+                Console.Write(" ");
+
             }
         }
     }

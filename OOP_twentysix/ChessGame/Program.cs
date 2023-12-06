@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Data.Common;
+using System.Diagnostics;
+{
+
+}
 namespace ChessGame
 {
     class Program

@@ -1,24 +1,18 @@
 using System;
 namespace ChessGame
 {
-    class Piece
+    abstract class Piece(Board board, Color color)
     {
-        public Position Position { get; set; }
-        public Color color { get; set; }
-        public int MovementCount { get; private set; }
-        public Board board { get; protected set; }
+        public Position? Position { get; set; } = null;
+        public Color color { get; set; } = color;
+        public int MovementCount { get; private set; } = 0;
+        public Board board { get; protected set; } = board;
 
-        public Piece(Board board, Color color)
-        {
-            Position = null;
-            this.board = board;
-            this.color = color;
-            MovementCount = 0;
-        }
         public void IncrementMovementQnt()
         {
             MovementCount++;
         }
+        public abstract bool[,] PossibleMovements();
     }
 
 }

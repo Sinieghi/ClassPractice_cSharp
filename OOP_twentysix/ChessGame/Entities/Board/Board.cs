@@ -32,7 +32,7 @@ namespace ChessGame
             piece.Position = pos;
 
         }
-        public Piece RemovePiece(Position pos)
+        public Piece? RemovePiece(Position pos)
         {
             if (setPiece(pos) == null)
             {

@@ -12,6 +12,11 @@ namespace ChessGame
             this.column = column;
         }
 
+        public void DefineValues(int line, int column)
+        {
+            this.line = line;
+            this.column = column;
+        }
         public override string ToString()
         {
             return line + ", " + column;
