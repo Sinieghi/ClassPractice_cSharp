@@ -6,15 +6,18 @@ namespace ChessGame
 
         public override string ToString()
         {
+
             return "T";
         }
         private bool CanMove(Position pos)
         {
+
             Piece p = board.setPiece(pos);
             return p == null || p.color != color;
         }
         public override bool[,] PossibleMovements()
         {
+
             bool[,] pm = new bool[board.line, board.column];
             Position p = new Position(0, 0);
             //north direction
@@ -28,6 +31,7 @@ namespace ChessGame
                 p.line--;
             }
             //south position
+
             p.DefineValues(p.line + 1, p.column);
             while (board.validatePosition(p) && CanMove(p))
             {

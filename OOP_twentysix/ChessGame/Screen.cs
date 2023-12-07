@@ -21,6 +21,32 @@ namespace ChessGame
             Console.WriteLine(" a b c d e f g h");
         }
 
+        public static void PrintBoard(Board board, bool[,] possiblePoss)
+        {
+            ConsoleColor background = Console.BackgroundColor;
+            ConsoleColor newColor = ConsoleColor.Green;
+
+            for (int i = 0; i < board.line; i++)
+            {
+                int j = 0;
+                Console.Write(8 - i + " ");
+                while (j < board.column - 1)
+                {
+                    if (possiblePoss[i, j])
+                    {
+                        Console.BackgroundColor = newColor;
+                    }
+                    else Console.BackgroundColor = background;
+                    PrintPiece(board.setPiece(i, j));
+                    Console.BackgroundColor = background;
+                    j++;
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine(" a b c d e f g h");
+            Console.BackgroundColor = background;
+        }
+
         public static PositionChess ReadPositionChess()
         {
             string s = Console.ReadLine();
@@ -37,7 +63,7 @@ namespace ChessGame
             else
             {
 
-                if (piece.color == Color.Black)
+                if (piece.color == Color.White)
                 {
                     Console.Write(piece);
                 }

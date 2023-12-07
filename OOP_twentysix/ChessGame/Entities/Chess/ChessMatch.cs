@@ -10,6 +10,7 @@ namespace ChessGame
 
         public ChessMatch()
         {
+
             Boar = new Board(8, 8);
             Turn = 1;
             PlayerTurn = Color.White;
@@ -18,6 +19,7 @@ namespace ChessGame
 
         public void Movement(Position origin, Position destiny)
         {
+
             Piece p = Boar.RemovePiece(origin);
             p.IncrementMovementQnt();
             Piece capturedPiece = Boar.RemovePiece(destiny);

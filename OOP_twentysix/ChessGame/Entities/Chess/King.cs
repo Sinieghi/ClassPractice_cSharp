@@ -12,6 +12,7 @@ namespace ChessGame
         public override bool[,] PossibleMovements()
         {
             bool[,] pm = new bool[board.line, board.column];
+
             Position p = new Position(0, 0);
             //north direction
             p.DefineValues(p.line - 1, p.column);

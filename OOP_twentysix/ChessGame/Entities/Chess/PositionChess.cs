@@ -8,6 +8,7 @@ namespace ChessGame
 
         public PositionChess(char column, int line)
         {
+
             Column = column;
             Line = line;
         }
@@ -15,10 +16,12 @@ namespace ChessGame
         public Position ToPosition()
         {
 
+
             return new Position(8 - Line, Column - 'a');
         }
         public override string ToString()
         {
+
             return "" + Column + Line;
         }
 
