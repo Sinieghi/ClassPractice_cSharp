@@ -11,7 +11,7 @@ namespace ChessGame
             {
                 int j = 0;
                 Console.Write(8 - i + " ");
-                while (j < board.column - 1)
+                while (j < board.column)
                 {
                     PrintPiece(board.setPiece(i, j));
                     j++;
@@ -28,10 +28,10 @@ namespace ChessGame
 
             for (int i = 0; i < board.line; i++)
             {
-                int j = 0;
                 Console.Write(8 - i + " ");
-                while (j < board.column - 1)
+                for (int j = 0; j < board.column; j++)
                 {
+
                     if (possiblePoss[i, j])
                     {
                         Console.BackgroundColor = newColor;
@@ -39,11 +39,10 @@ namespace ChessGame
                     else Console.BackgroundColor = background;
                     PrintPiece(board.setPiece(i, j));
                     Console.BackgroundColor = background;
-                    j++;
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine(" a b c d e f g h");
+            Console.WriteLine("  a b c d e f g h");
             Console.BackgroundColor = background;
         }
 

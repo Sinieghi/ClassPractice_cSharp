@@ -32,7 +32,7 @@ namespace ChessGame
             {
                 throw new BoardException("You can't override positions");
             }
-            this.pieces[pos.line, pos.column] = piece;
+            pieces[pos.line, pos.column] = piece;
             piece.Position = pos;
 
         }

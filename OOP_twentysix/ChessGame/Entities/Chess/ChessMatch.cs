@@ -4,9 +4,12 @@ namespace ChessGame
     class ChessMatch
     {
         public Board Boar { get; protected set; }
-        private readonly int Turn;
-        private readonly Color PlayerTurn;
+        public int Turn { get; protected set; }
+        public Color PlayerTurn { get; protected set; }
         public bool Ended { get; private set; }
+        private HashSet<Piece> pieces;
+        private HashSet<Piece> capturedPieces;
+
 
         public ChessMatch()
         {
@@ -14,7 +17,48 @@ namespace ChessGame
             Boar = new Board(8, 8);
             Turn = 1;
             PlayerTurn = Color.White;
+            pieces = [];
+            capturedPieces = [];
             PushPiece();
+        }
+
+        public void ExecuteTurn(Position origin, Position destiny)
+        {
+            Movement(origin, destiny);
+            Turn++;
+            ChangePlayer();
+        }
+
+        public void ValidateOriginPosition(Position p)
+        {
+            if (Boar.setPiece(p) == null)
+            {
+                throw new BoardException("Empty position");
+            }
+            if (PlayerTurn != Boar.setPiece(p).color)
+            {
+                throw new BoardException("Wrong choice, this piece is not your's");
+            }
+            if (!Boar.setPiece(p).isPossibleToMove())
+            {
+                throw new BoardException("This piece can't move because other allies pieces are in they way");
+            }
+        }
+
+        public void ValidateDestinyPosition(Position origin, Position destiny)
+        {
+            if (!Boar.setPiece(origin).IsAbleToMoveThere(destiny))
+            {
+                throw new BoardException("Invalide destiny position");
+            }
+        }
+        private void ChangePlayer()
+        {
+            if (PlayerTurn == Color.White)
+            {
+                PlayerTurn = Color.Black;
+            }
+            else PlayerTurn = Color.White;
         }
 
         public void Movement(Position origin, Position destiny)
@@ -24,25 +68,59 @@ namespace ChessGame
             p.IncrementMovementQnt();
             Piece capturedPiece = Boar.RemovePiece(destiny);
             Boar.PushPiece(p, destiny);
+            if (capturedPiece != null) capturedPieces.Add(capturedPiece);
 
         }
 
+        public void pushNewPiece(char column, int line, Piece piece)
+        {
+            Boar.PushPiece(piece, new PositionChess(column, line).ToPosition());
+            pieces.Add(piece);
+
+        }
+
+        public HashSet<Piece> PiecesCaptured(Color color)
+        {
+            HashSet<Piece> he = [];
+            foreach (Piece x in capturedPieces)
+            {
+                if (x.color == color)
+                {
+                    he.Add(x);
+                }
+            }
+            return he;
+        }
+
+        public HashSet<Piece> PiecesInGame(Color color)
+        {
+            HashSet<Piece> he = [];
+            foreach (Piece x in capturedPieces)
+            {
+                if (x.color == color)
+                {
+                    he.Add(x);
+                }
+            }
+            he.ExceptWith(PiecesCaptured(color));
+            return he;
+
+        }
         private void PushPiece()
         {
-            Boar.PushPiece(new Tower(Boar, Color.Black), new PositionChess('c', 1).ToPosition());
-            Boar.PushPiece(new Tower(Boar, Color.Black), new PositionChess('c', 2).ToPosition());
-            Boar.PushPiece(new Tower(Boar, Color.Black), new PositionChess('e', 1).ToPosition());
-            Boar.PushPiece(new Tower(Boar, Color.Black), new PositionChess('e', 2).ToPosition());
-            Boar.PushPiece(new Tower(Boar, Color.Black), new PositionChess('d', 2).ToPosition());
-            Boar.PushPiece(new King(Boar, Color.Black), new PositionChess('d', 1).ToPosition());
-            // Boar.PushPiece(new King(Boar, Color.Black), new Position(2, 4));
-            // Boar.PushPiece(new Tower(Boar, Color.White), new Position(3, 5));
-            Boar.PushPiece(new Tower(Boar, Color.White), new PositionChess('c', 7).ToPosition());
-            Boar.PushPiece(new Tower(Boar, Color.White), new PositionChess('c', 8).ToPosition());
-            Boar.PushPiece(new Tower(Boar, Color.White), new PositionChess('d', 7).ToPosition());
-            Boar.PushPiece(new Tower(Boar, Color.White), new PositionChess('e', 7).ToPosition());
-            Boar.PushPiece(new Tower(Boar, Color.White), new PositionChess('e', 8).ToPosition());
-            Boar.PushPiece(new King(Boar, Color.White), new PositionChess('d', 8).ToPosition());
+            pushNewPiece('c', 1, new Tower(Boar, Color.Black));
+            pushNewPiece('c', 2, new Tower(Boar, Color.Black));
+            pushNewPiece('e', 1, new Tower(Boar, Color.Black));
+            pushNewPiece('e', 2, new Tower(Boar, Color.Black));
+            pushNewPiece('d', 2, new Tower(Boar, Color.Black));
+            pushNewPiece('d', 1, new King(Boar, Color.Black));
+
+            pushNewPiece('c', 7, new Tower(Boar, Color.White));
+            pushNewPiece('c', 8, new Tower(Boar, Color.White));
+            pushNewPiece('d', 7, new Tower(Boar, Color.White));
+            pushNewPiece('e', 7, new Tower(Boar, Color.White));
+            pushNewPiece('e', 8, new Tower(Boar, Color.White));
+            pushNewPiece('d', 8, new King(Boar, Color.White));
 
         }
 

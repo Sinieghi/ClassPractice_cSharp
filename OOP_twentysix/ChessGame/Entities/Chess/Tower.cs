@@ -21,7 +21,7 @@ namespace ChessGame
             bool[,] pm = new bool[board.line, board.column];
             Position p = new Position(0, 0);
             //north direction
-            p.DefineValues(p.line - 1, p.column);
+            p.DefineValues(Position.line - 1, Position.column);
             while (board.validatePosition(p) && CanMove(p))
             {
                 pm[p.line, p.column] = true;
@@ -32,7 +32,7 @@ namespace ChessGame
             }
             //south position
 
-            p.DefineValues(p.line + 1, p.column);
+            p.DefineValues(Position.line + 1, Position.column);
             while (board.validatePosition(p) && CanMove(p))
             {
                 pm[p.line, p.column] = true;
@@ -42,7 +42,7 @@ namespace ChessGame
                 p.line++;
             }
             //east position
-            p.DefineValues(p.line, p.column + 1);
+            p.DefineValues(Position.line, Position.column + 1);
             while (board.validatePosition(p) && CanMove(p))
             {
                 pm[p.line, p.column] = true;
@@ -52,7 +52,7 @@ namespace ChessGame
                 p.column++;
             }
             //west position
-            p.DefineValues(p.line, p.column - 1);
+            p.DefineValues(Position.line, Position.column - 1);
             while (board.validatePosition(p) && CanMove(p))
             {
                 pm[p.line, p.column] = true;
@@ -60,7 +60,7 @@ namespace ChessGame
 
                     break;
 
-                p.line--;
+                p.column--;
             }
             return pm;
         }

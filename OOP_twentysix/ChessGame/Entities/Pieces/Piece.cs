@@ -12,6 +12,27 @@ namespace ChessGame
         {
             MovementCount++;
         }
+
+        public bool isPossibleToMove()
+        {
+            bool[,] m = PossibleMovements();
+            for (int i = 0; i < board.line; i++)
+            {
+                for (int u = 0; u < board.column; u++)
+                {
+                    if (m[i, u])
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        public bool IsAbleToMoveThere(Position p)
+        {
+            return PossibleMovements()[p.line, p.column];
+        }
         public abstract bool[,] PossibleMovements();
     }
 
