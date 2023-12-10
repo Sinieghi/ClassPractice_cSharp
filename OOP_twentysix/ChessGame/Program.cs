@@ -14,11 +14,8 @@ namespace ChessGame
                 {
                     try
                     {
-                        // Console.Clear();
-                        Screen.PrintBoard(game.Boar);
-                        Console.WriteLine();
-                        Console.WriteLine("Turn: " + game.Turn);
-                        Console.WriteLine("Waiting current player: " + game.PlayerTurn);
+                        Console.Clear();
+                        Screen.PrintMatch(game);
 
                         Console.WriteLine("Origin: ");
                         Position origin = Screen.ReadPositionChess().ToPosition();
@@ -26,7 +23,7 @@ namespace ChessGame
 
                         bool[,] possiblePosition = game.Boar.setPiece(origin).PossibleMovements();
 
-                        // Console.Clear();
+                        Console.Clear();
                         Screen.PrintBoard(game.Boar, possiblePosition);
 
                         Console.WriteLine("Destiny: ");

@@ -77,6 +77,33 @@ namespace ChessGame
 
             }
         }
+
+        public static void PrintMatch(ChessMatch match)
+        {
+            PrintBoard(match.Boar);
+            PrintCapturedPieces(match);
+            Console.WriteLine();
+            Console.WriteLine("Turn: " + match.Turn);
+            Console.WriteLine("Waiting current player: " + match.PlayerTurn);
+        }
+        public static void PrintCapturedPieces(ChessMatch game)
+        {
+            Console.WriteLine("Captured pieces: ");
+            Console.WriteLine("White: ");
+            PrintSetOfPieces(game.PiecesCaptured(Color.White));
+            Console.WriteLine();
+            Console.WriteLine("Black: ");
+            PrintSetOfPieces(game.PiecesCaptured(Color.Black));
+        }
+        public static void PrintSetOfPieces(HashSet<Piece> set)
+        {
+            Console.Write("[");
+            foreach (Piece x in set)
+            {
+                Console.Write(x + " ");
+            }
+            Console.Write("]");
+        }
     }
 
 }

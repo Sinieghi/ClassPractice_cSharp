@@ -13,6 +13,11 @@ namespace ChessGame
             MovementCount++;
         }
 
+        public void DecreaseMovementQnt()
+        {
+            MovementCount--;
+        }
+
         public bool isPossibleToMove()
         {
             bool[,] m = PossibleMovements();

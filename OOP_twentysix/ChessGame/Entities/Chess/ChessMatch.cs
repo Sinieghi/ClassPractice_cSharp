@@ -1,4 +1,5 @@
 using System;
+using System.Xml.Schema;
 namespace ChessGame
 {
     class ChessMatch
@@ -10,12 +11,16 @@ namespace ChessGame
         private HashSet<Piece> pieces;
         private HashSet<Piece> capturedPieces;
 
+        public bool Checkmate { get; private set; }
+
 
         public ChessMatch()
         {
 
             Boar = new Board(8, 8);
             Turn = 1;
+            Checkmate = false;
+            Ended = false;
             PlayerTurn = Color.White;
             pieces = [];
             capturedPieces = [];
@@ -24,10 +29,38 @@ namespace ChessGame
 
         public void ExecuteTurn(Position origin, Position destiny)
         {
+            Piece capturedPiece = Movement(origin, destiny);
+            if (IsCheckmate(PlayerTurn))
+            {
+                UndoMovement(origin, destiny, capturedPiece);
+                throw new BoardException("You cant CheckMate yourself");
+            }
+
+            if (IsCheckmate(Adversary(PlayerTurn)))
+            {
+                Checkmate = true;
+            }
+            else
+                Checkmate = false;
+
+
             Movement(origin, destiny);
             Turn++;
             ChangePlayer();
         }
+
+        public void UndoMovement(Position origin, Position destiny, Piece captured)
+        {
+            Piece p = Boar.RemovePiece(destiny);
+            p.DecreaseMovementQnt();
+            if (captured != null)
+            {
+                Boar.PushPiece(captured, destiny);
+                capturedPieces.Remove(captured);
+            }
+            Boar.PushPiece(p, origin);
+        }
+
 
         public void ValidateOriginPosition(Position p)
         {
@@ -61,7 +94,7 @@ namespace ChessGame
             else PlayerTurn = Color.White;
         }
 
-        public void Movement(Position origin, Position destiny)
+        public Piece Movement(Position origin, Position destiny)
         {
 
             Piece p = Boar.RemovePiece(origin);
@@ -69,6 +102,8 @@ namespace ChessGame
             Piece capturedPiece = Boar.RemovePiece(destiny);
             Boar.PushPiece(p, destiny);
             if (capturedPiece != null) capturedPieces.Add(capturedPiece);
+
+            return capturedPiece;
 
         }
 
@@ -105,6 +140,40 @@ namespace ChessGame
             he.ExceptWith(PiecesCaptured(color));
             return he;
 
+        }
+
+        private Color Adversary(Color color)
+        {
+            if (color == Color.White)
+            {
+                return Color.Black;
+            }
+            else return Color.White;
+        }
+        private Piece? King(Color color)
+        {
+            foreach (Piece x in PiecesInGame(color))
+            {
+                if (x is King)
+                {
+                    return x;
+                }
+            }
+            return null;
+        }
+        public bool IsCheckmate(Color color)
+        {
+            Piece R = King(color);
+            if (R == null) throw new BoardException("There is no Kink " + color);
+            foreach (Piece x in PiecesInGame(Adversary(color)))
+            {
+                bool[,] m = x.PossibleMovements();
+                if (m[R.Position.line, R.Position.column])
+                {
+                    return true;
+                }
+            }
+            return false;
         }
         private void PushPiece()
         {
