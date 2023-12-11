@@ -1,4 +1,5 @@
 using System;
+using System.Xml.Linq;
 using System.Xml.Schema;
 namespace ChessGame
 {
@@ -43,10 +44,16 @@ namespace ChessGame
             else
                 Checkmate = false;
 
-
-            Movement(origin, destiny);
-            Turn++;
-            ChangePlayer();
+            if (TestCheckmate(Adversary(PlayerTurn)))
+            {
+                Ended = true;
+            }
+            else
+            {
+                Movement(origin, destiny);
+                Turn++;
+                ChangePlayer();
+            }
         }
 
         public void UndoMovement(Position origin, Position destiny, Piece captured)
@@ -175,6 +182,38 @@ namespace ChessGame
             }
             return false;
         }
+
+        public bool TestCheckmate(Color color)
+        {
+            if (!IsCheckmate(color))
+            {
+                return false;
+            }
+            foreach (Piece x in PiecesInGame(color))
+            {
+                bool[,] m = x.PossibleMovements();
+                for (int i = 0; i < Boar.line; i++)
+                {
+                    for (int j = 0; j < Boar.column; j++)
+                    {
+                        if (m[i, j])
+                        {
+                            Position destiny = new Position(i, j);
+                            Piece capturedPice = Movement(x.Position, destiny);
+                            bool TestCheckmate = IsCheckmate(color);
+                            UndoMovement(x.Position, destiny, capturedPice);
+                            if (!TestCheckmate)
+                            {
+                                return false;
+                            }
+                        }
+
+                    }
+                }
+            }
+            return true;
+        }
+
         private void PushPiece()
         {
             pushNewPiece('c', 1, new Tower(Boar, Color.Black));

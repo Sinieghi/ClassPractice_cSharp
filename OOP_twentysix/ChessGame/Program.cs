@@ -17,6 +17,7 @@ namespace ChessGame
                         Console.Clear();
                         Screen.PrintMatch(game);
 
+                        Console.WriteLine();
                         Console.WriteLine("Origin: ");
                         Position origin = Screen.ReadPositionChess().ToPosition();
                         game.ValidateOriginPosition(origin);
@@ -38,7 +39,10 @@ namespace ChessGame
                         Console.WriteLine(e.Message);
                     }
                 }
-                Screen.PrintBoard(game.Boar);
+
+                Console.Clear();
+                Screen.PrintMatch(game);
+
             }
             catch (BoardException e)
             {

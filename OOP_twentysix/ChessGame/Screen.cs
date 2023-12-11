@@ -84,7 +84,22 @@ namespace ChessGame
             PrintCapturedPieces(match);
             Console.WriteLine();
             Console.WriteLine("Turn: " + match.Turn);
-            Console.WriteLine("Waiting current player: " + match.PlayerTurn);
+            if (!match.Ended)
+            {
+
+
+                Console.WriteLine("Waiting current player: " + match.PlayerTurn);
+                if (match.Checkmate)
+                {
+
+                    Console.WriteLine("Check");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Checkmate");
+                Console.WriteLine("Winner: " + match.PlayerTurn);
+            }
         }
         public static void PrintCapturedPieces(ChessMatch game)
         {
