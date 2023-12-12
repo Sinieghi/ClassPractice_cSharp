@@ -27,10 +27,35 @@ namespace ChessGame
             capturedPieces = [];
             PushPiece();
         }
-
+        private Piece? King(Color color)
+        {
+            foreach (Piece x in PiecesInGame(color))
+            {
+                if (x is King)
+                {
+                    return x;
+                }
+            }
+            return null;
+        }
+        public bool IsCheckmate(Color color)
+        {
+            Piece R = King(color) ?? throw new BoardException("There is no King " + color);
+            foreach (Piece x in PiecesInGame(Adversary(color)))
+            {
+                bool[,] m = x.PossibleMovements();
+                Console.WriteLine(m[R.Position.line, R.Position.column]);
+                if (m[R.Position.line, R.Position.column])
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
         public void ExecuteTurn(Position origin, Position destiny)
         {
             Piece capturedPiece = Movement(origin, destiny);
+
             if (IsCheckmate(PlayerTurn))
             {
                 UndoMovement(origin, destiny, capturedPiece);
@@ -48,11 +73,13 @@ namespace ChessGame
             {
                 Ended = true;
             }
+
             else
             {
                 Movement(origin, destiny);
                 Turn++;
                 ChangePlayer();
+
             }
         }
 
@@ -137,7 +164,7 @@ namespace ChessGame
         public HashSet<Piece> PiecesInGame(Color color)
         {
             HashSet<Piece> he = [];
-            foreach (Piece x in capturedPieces)
+            foreach (Piece x in pieces)
             {
                 if (x.color == color)
                 {
@@ -157,31 +184,7 @@ namespace ChessGame
             }
             else return Color.White;
         }
-        private Piece? King(Color color)
-        {
-            foreach (Piece x in PiecesInGame(color))
-            {
-                if (x is King)
-                {
-                    return x;
-                }
-            }
-            return null;
-        }
-        public bool IsCheckmate(Color color)
-        {
-            Piece R = King(color);
-            if (R == null) throw new BoardException("There is no Kink " + color);
-            foreach (Piece x in PiecesInGame(Adversary(color)))
-            {
-                bool[,] m = x.PossibleMovements();
-                if (m[R.Position.line, R.Position.column])
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
+
 
         public bool TestCheckmate(Color color)
         {

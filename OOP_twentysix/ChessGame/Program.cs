@@ -14,7 +14,7 @@ namespace ChessGame
                 {
                     try
                     {
-                        Console.Clear();
+                        // Console.Clear();
                         Screen.PrintMatch(game);
 
                         Console.WriteLine();
@@ -24,7 +24,7 @@ namespace ChessGame
 
                         bool[,] possiblePosition = game.Boar.setPiece(origin).PossibleMovements();
 
-                        Console.Clear();
+                        // Console.Clear();
                         Screen.PrintBoard(game.Boar, possiblePosition);
 
                         Console.WriteLine("Destiny: ");
@@ -40,7 +40,7 @@ namespace ChessGame
                     }
                 }
 
-                Console.Clear();
+                // Console.Clear();
                 Screen.PrintMatch(game);
 
             }
