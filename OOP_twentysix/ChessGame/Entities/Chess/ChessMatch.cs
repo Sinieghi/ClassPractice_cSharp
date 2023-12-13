@@ -44,9 +44,11 @@ namespace ChessGame
             foreach (Piece x in PiecesInGame(Adversary(color)))
             {
                 bool[,] m = x.PossibleMovements();
-                Console.WriteLine(m[R.Position.line, R.Position.column]);
                 if (m[R.Position.line, R.Position.column])
                 {
+                    Console.WriteLine(R.Position.line);
+                    Console.WriteLine(R.Position.column);
+                    Console.WriteLine(m[R.Position.line, R.Position.column]);
                     return true;
                 }
             }
@@ -55,7 +57,6 @@ namespace ChessGame
         public void ExecuteTurn(Position origin, Position destiny)
         {
             Piece capturedPiece = Movement(origin, destiny);
-
             if (IsCheckmate(PlayerTurn))
             {
                 UndoMovement(origin, destiny, capturedPiece);

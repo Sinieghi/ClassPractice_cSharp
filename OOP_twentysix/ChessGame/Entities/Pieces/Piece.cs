@@ -27,8 +27,6 @@ namespace ChessGame
                 {
                     if (m[i, u])
                     {
-                        Console.WriteLine(i);
-                        Console.WriteLine(u);
                         return true;
                     }
                 }
