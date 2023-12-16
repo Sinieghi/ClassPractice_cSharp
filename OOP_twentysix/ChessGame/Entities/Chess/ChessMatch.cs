@@ -77,10 +77,8 @@ namespace ChessGame
 
             else
             {
-                Movement(origin, destiny);
                 Turn++;
                 ChangePlayer();
-
             }
         }
 
@@ -132,10 +130,10 @@ namespace ChessGame
         public Piece Movement(Position origin, Position destiny)
         {
 
-            Piece p = Boar.RemovePiece(origin);
-            p.IncrementMovementQnt();
+            Piece piece = Boar.RemovePiece(origin);
+            piece.IncrementMovementQnt();
             Piece capturedPiece = Boar.RemovePiece(destiny);
-            Boar.PushPiece(p, destiny);
+            Boar.PushPiece(piece, destiny);
             if (capturedPiece != null) capturedPieces.Add(capturedPiece);
 
             return capturedPiece;
@@ -202,10 +200,11 @@ namespace ChessGame
                     {
                         if (m[i, j])
                         {
+                            Position origin = x.Position;
                             Position destiny = new Position(i, j);
-                            Piece capturedPice = Movement(x.Position, destiny);
+                            Piece capturedPice = Movement(origin, destiny);
                             bool TestCheckmate = IsCheckmate(color);
-                            UndoMovement(x.Position, destiny, capturedPice);
+                            UndoMovement(origin, destiny, capturedPice);
                             if (!TestCheckmate)
                             {
                                 return false;
