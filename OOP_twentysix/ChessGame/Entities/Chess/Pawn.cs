@@ -9,67 +9,73 @@ namespace ChessGame
             Piece p = board.setPiece(pos);
             return p == null || p.color != color;
         }
+        private bool Free(Position pos)
+        {
+            return board.setPiece(pos) == null;
+        }
         public override bool[,] PossibleMovements()
         {
-            throw new NotImplementedException();
-            //     bool[,] pm = new bool[board.line, board.column];
+            bool[,] pm = new bool[board.line, board.column];
 
-            //     Position p = new Position(0, 0);
-            //     //north direction
-            //     p.DefineValues(Position.line - 1, Position.column);
-            //     if (board.validatePosition(p) && CanMove(p))
-            //     {
-            //         pm[p.line, p.column] = true;
-            //     }
-            //     //ne direction
-            //     p.DefineValues(Position.line - 1, Position.column + 1);
-            //     if (board.validatePosition(p) && CanMove(p))
-            //     {
-            //         pm[p.line, p.column] = true;
-            //     }
-            //     //east position
-            //     p.DefineValues(Position.line, Position.column + 1);
-            //     if (board.validatePosition(p) && CanMove(p))
-            //     {
-            //         pm[p.line, p.column] = true;
-            //     }
-            //     //se position
-            //     p.DefineValues(Position.line + 1, Position.column + 1);
-            //     if (board.validatePosition(p) && CanMove(p))
-            //     {
-            //         pm[p.line, p.column] = true;
-            //     }
-            //     //south position
-            //     p.DefineValues(Position.line + 1, Position.column);
-            //     if (board.validatePosition(p) && CanMove(p))
-            //     {
-            //         pm[p.line, p.column] = true;
-            //     }
-            //     //sw position
-            //     p.DefineValues(Position.line + 1, Position.column - 1);
-            //     if (board.validatePosition(p) && CanMove(p))
-            //     {
-            //         pm[p.line, p.column] = true;
-            //     }
-            //     //west position
-            //     p.DefineValues(Position.line, Position.column - 1);
-            //     if (board.validatePosition(p) && CanMove(p))
-            //     {
-            //         pm[p.line, p.column] = true;
-            //     }
-            //     //nw position
-            //     p.DefineValues(Position.line - 1, Position.column - 1);
-            //     if (board.validatePosition(p) && CanMove(p))
-            //     {
-            //         pm[p.line, p.column] = true;
-            //     }
+            Position p = new Position(0, 0);
+            if (color == Color.Black)
+            {
 
-            //     return pm;
+                p.DefineValues(Position.line - 1, Position.column);
+                if (board.validatePosition(p) && CanMove(p))
+                {
+                    pm[p.line, p.column] = true;
+                }
+
+                p.DefineValues(Position.line - 2, Position.column);
+                if (board.validatePosition(p) && CanMove(p) && MovementCount == 0)
+                {
+                    pm[p.line, p.column] = true;
+                }
+
+                p.DefineValues(Position.line - 1, Position.column - 1);
+                if (board.validatePosition(p) && CanMove(p))
+                {
+                    pm[p.line, p.column] = true;
+                }
+                p.DefineValues(Position.line - 1, Position.column + 1);
+                if (board.validatePosition(p) && CanMove(p))
+                {
+                    pm[p.line, p.column] = true;
+                }
+            }
+            else
+            {
+                p.DefineValues(Position.line + 1, Position.column);
+                if (board.validatePosition(p) && CanMove(p))
+                {
+                    pm[p.line, p.column] = true;
+                }
+
+                p.DefineValues(Position.line + 2, Position.column);
+                if (board.validatePosition(p) && CanMove(p) && MovementCount == 0)
+                {
+                    pm[p.line, p.column] = true;
+                }
+
+                p.DefineValues(Position.line + 1, Position.column + 1);
+                if (board.validatePosition(p) && CanMove(p))
+                {
+                    pm[p.line, p.column] = true;
+                }
+                p.DefineValues(Position.line + 1, Position.column - 1);
+                if (board.validatePosition(p) && CanMove(p))
+                {
+                    pm[p.line, p.column] = true;
+                }
+            }
+
+            return pm;
         }
 
         public override string ToString()
         {
-            return "Q";
+            return "P";
         }
 
 
