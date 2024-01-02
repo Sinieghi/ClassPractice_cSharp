@@ -219,19 +219,39 @@ namespace ChessGame
 
         private void PushPiece()
         {
-            pushNewPiece('c', 1, new Tower(Boar, Color.Black));
-            pushNewPiece('c', 2, new Tower(Boar, Color.Black));
-            pushNewPiece('e', 1, new Tower(Boar, Color.Black));
-            pushNewPiece('e', 2, new Tower(Boar, Color.Black));
-            pushNewPiece('d', 2, new Tower(Boar, Color.Black));
-            pushNewPiece('d', 1, new King(Boar, Color.Black));
+            pushNewPiece('a', 1, new Tower(Boar, Color.Black));
+            pushNewPiece('b', 1, new Horse(Boar, Color.Black));
+            pushNewPiece('c', 1, new Bishop(Boar, Color.Black));
+            pushNewPiece('d', 1, new Queen(Boar, Color.Black));
+            pushNewPiece('e', 1, new King(Boar, Color.Black));
+            pushNewPiece('f', 1, new Bishop(Boar, Color.Black));
+            pushNewPiece('g', 1, new Horse(Boar, Color.Black));
+            pushNewPiece('h', 1, new Tower(Boar, Color.Black));
+            pushNewPiece('a', 2, new Pawn(Boar, Color.Black));
+            pushNewPiece('b', 2, new Pawn(Boar, Color.Black));
+            pushNewPiece('c', 2, new Pawn(Boar, Color.Black));
+            pushNewPiece('d', 2, new Pawn(Boar, Color.Black));
+            pushNewPiece('e', 2, new Pawn(Boar, Color.Black));
+            pushNewPiece('f', 2, new Pawn(Boar, Color.Black));
+            pushNewPiece('g', 2, new Pawn(Boar, Color.Black));
+            pushNewPiece('h', 2, new Pawn(Boar, Color.Black));
 
-            pushNewPiece('c', 7, new Tower(Boar, Color.White));
-            pushNewPiece('c', 8, new Tower(Boar, Color.White));
-            pushNewPiece('d', 7, new Tower(Boar, Color.White));
-            pushNewPiece('e', 7, new Tower(Boar, Color.White));
-            pushNewPiece('e', 8, new Tower(Boar, Color.White));
-            pushNewPiece('d', 8, new King(Boar, Color.White));
+            pushNewPiece('a', 8, new Tower(Boar, Color.White));
+            pushNewPiece('b', 8, new Horse(Boar, Color.White));
+            pushNewPiece('c', 8, new Bishop(Boar, Color.White));
+            pushNewPiece('d', 8, new Queen(Boar, Color.White));
+            pushNewPiece('e', 8, new King(Boar, Color.White));
+            pushNewPiece('f', 8, new Bishop(Boar, Color.White));
+            pushNewPiece('g', 8, new Horse(Boar, Color.White));
+            pushNewPiece('h', 8, new Tower(Boar, Color.White));
+            pushNewPiece('a', 7, new Pawn(Boar, Color.White));
+            pushNewPiece('b', 7, new Pawn(Boar, Color.White));
+            pushNewPiece('c', 7, new Pawn(Boar, Color.White));
+            pushNewPiece('d', 7, new Pawn(Boar, Color.White));
+            pushNewPiece('e', 7, new Pawn(Boar, Color.White));
+            pushNewPiece('f', 7, new Pawn(Boar, Color.White));
+            pushNewPiece('g', 7, new Pawn(Boar, Color.White));
+            pushNewPiece('h', 7, new Pawn(Boar, Color.White));
 
         }
 
