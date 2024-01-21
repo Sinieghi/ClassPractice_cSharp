@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\bin\Debug\net8.0\ReadAndWriet.exe
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\bin\Debug\net8.0\ReadAndWriet.deps.json
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\bin\Debug\net8.0\ReadAndWriet.runtimeconfig.json
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\bin\Debug\net8.0\ReadAndWriet.dll
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\bin\Debug\net8.0\ReadAndWriet.pdb
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\ReadAndWriet.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\ReadAndWriet.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\ReadAndWriet.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\ReadAndWriet.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\ReadAndWriet.sourcelink.json
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\ReadAndWriet.dll
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\refint\ReadAndWriet.dll
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\ReadAndWriet.pdb
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\ReadAndWriet.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_exercise\ReadAndWriet\obj\Debug\net8.0\ref\ReadAndWriet.dll

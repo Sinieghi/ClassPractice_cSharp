@@ -1,0 +1,4 @@
+TV LED, 1500
+Chair, 1501,5
+Phone, 18000
+Keyboard, 1200

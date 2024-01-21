@@ -11,10 +11,10 @@ namespace ChessGame
         }
         public override bool[,] PossibleMovements()
         {
-
             bool[,] pm = new bool[board.line, board.column];
 
-            Position p = new Position(0, 0);
+            Position p = new(0, 0);
+
             p.DefineValues(Position.line - 1, Position.column - 2);
             if (board.validatePosition(p) && CanMove(p))
             {
@@ -55,7 +55,6 @@ namespace ChessGame
             {
                 pm[p.line, p.column] = true;
             }
-
             return pm;
         }
 

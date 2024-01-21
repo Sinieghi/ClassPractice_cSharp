@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_twentyseven\File_content\bin\Debug\net8.0\File_content.exe
+e:\doc\c#OOP\OOP_twentyseven\File_content\bin\Debug\net8.0\File_content.deps.json
+e:\doc\c#OOP\OOP_twentyseven\File_content\bin\Debug\net8.0\File_content.runtimeconfig.json
+e:\doc\c#OOP\OOP_twentyseven\File_content\bin\Debug\net8.0\File_content.dll
+e:\doc\c#OOP\OOP_twentyseven\File_content\bin\Debug\net8.0\File_content.pdb
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\File_content.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\File_content.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\File_content.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\File_content.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\File_content.sourcelink.json
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\File_content.dll
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\refint\File_content.dll
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\File_content.pdb
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\File_content.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_twentyseven\File_content\obj\Debug\net8.0\ref\File_content.dll

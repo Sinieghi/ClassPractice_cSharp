@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_twentynine-path\Path\bin\Debug\net8.0\Path.exe
+e:\doc\c#OOP\OOP_twentynine-path\Path\bin\Debug\net8.0\Path.deps.json
+e:\doc\c#OOP\OOP_twentynine-path\Path\bin\Debug\net8.0\Path.runtimeconfig.json
+e:\doc\c#OOP\OOP_twentynine-path\Path\bin\Debug\net8.0\Path.dll
+e:\doc\c#OOP\OOP_twentynine-path\Path\bin\Debug\net8.0\Path.pdb
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\Path.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\Path.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\Path.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\Path.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\Path.sourcelink.json
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\Path.dll
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\refint\Path.dll
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\Path.pdb
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\Path.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_twentynine-path\Path\obj\Debug\net8.0\ref\Path.dll

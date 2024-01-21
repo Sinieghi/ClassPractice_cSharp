@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\bin\Debug\net8.0\Directory.exe
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\bin\Debug\net8.0\Directory.deps.json
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\bin\Debug\net8.0\Directory.runtimeconfig.json
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\bin\Debug\net8.0\Directory.dll
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\bin\Debug\net8.0\Directory.pdb
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\Directory.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\Directory.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\Directory.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\Directory.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\Directory.sourcelink.json
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\Directory.dll
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\refint\Directory.dll
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\Directory.pdb
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\Directory.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_twentyeight-dir\Directory\obj\Debug\net8.0\ref\Directory.dll

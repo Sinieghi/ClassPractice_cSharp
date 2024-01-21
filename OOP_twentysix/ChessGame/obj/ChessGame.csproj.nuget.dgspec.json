@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\ChessGame.csproj": {}
+    "e:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\ChessGame.csproj": {}
   },
   "projects": {
-    "E:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\ChessGame.csproj": {
+    "e:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\ChessGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\ChessGame.csproj",
+        "projectUniqueName": "e:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\ChessGame.csproj",
         "projectName": "ChessGame",
-        "projectPath": "E:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\ChessGame.csproj",
+        "projectPath": "e:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\ChessGame.csproj",
         "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "E:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\obj\\",
+        "outputPath": "e:\\doc\\c#OOP\\OOP_twentysix\\ChessGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config"

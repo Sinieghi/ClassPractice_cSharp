@@ -46,9 +46,6 @@ namespace ChessGame
                 bool[,] m = x.PossibleMovements();
                 if (m[R.Position.line, R.Position.column])
                 {
-                    Console.WriteLine(R.Position.line);
-                    Console.WriteLine(R.Position.column);
-                    Console.WriteLine(m[R.Position.line, R.Position.column]);
                     return true;
                 }
             }
@@ -92,6 +89,26 @@ namespace ChessGame
                 capturedPieces.Remove(captured);
             }
             Boar.PushPiece(p, origin);
+
+            //roque
+            if (p is King && destiny.column == origin.column + 2)
+            {
+                Position TwrOrigin = new(origin.line, origin.column + 3);
+                Position TwrDestiny = new(origin.line, origin.column + 1);
+                Piece T = Boar.RemovePiece(TwrDestiny);
+                T.DecreaseMovementQnt();
+                Boar.PushPiece(T, TwrOrigin);
+            }
+
+            //big roque
+            if (p is King && destiny.column == origin.column - 2)
+            {
+                Position TwrOrigin = new(origin.line, origin.column - 4);
+                Position TwrDestiny = new(origin.line, origin.column - 1);
+                Piece T = Boar.RemovePiece(TwrDestiny);
+                T.DecreaseMovementQnt();
+                Boar.PushPiece(T, TwrOrigin);
+            }
         }
 
 
@@ -118,6 +135,7 @@ namespace ChessGame
                 throw new BoardException("Invalide destiny position");
             }
         }
+
         private void ChangePlayer()
         {
             if (PlayerTurn == Color.White)
@@ -136,6 +154,25 @@ namespace ChessGame
             Boar.PushPiece(piece, destiny);
             if (capturedPiece != null) capturedPieces.Add(capturedPiece);
 
+            //roque
+            if (piece is King && destiny.column == origin.column + 2)
+            {
+                Position TwrOrigin = new(origin.line, origin.column + 3);
+                Position TwrDestiny = new(origin.line, origin.column + 1);
+                Piece T = Boar.RemovePiece(TwrOrigin);
+                T.IncrementMovementQnt();
+                Boar.PushPiece(T, TwrDestiny);
+            }
+
+            //big roque
+            if (piece is King && destiny.column == origin.column - 2)
+            {
+                Position TwrOrigin = new(origin.line, origin.column - 4);
+                Position TwrDestiny = new(origin.line, origin.column - 1);
+                Piece T = Boar.RemovePiece(TwrOrigin);
+                T.IncrementMovementQnt();
+                Boar.PushPiece(T, TwrDestiny);
+            }
             return capturedPiece;
 
         }
@@ -165,6 +202,8 @@ namespace ChessGame
             HashSet<Piece> he = [];
             foreach (Piece x in pieces)
             {
+
+
                 if (x.color == color)
                 {
                     he.Add(x);
@@ -177,6 +216,7 @@ namespace ChessGame
 
         private Color Adversary(Color color)
         {
+
             if (color == Color.White)
             {
                 return Color.Black;
@@ -201,7 +241,7 @@ namespace ChessGame
                         if (m[i, j])
                         {
                             Position origin = x.Position;
-                            Position destiny = new Position(i, j);
+                            Position destiny = new(i, j);
                             Piece capturedPice = Movement(origin, destiny);
                             bool TestCheckmate = IsCheckmate(color);
                             UndoMovement(origin, destiny, capturedPice);
@@ -219,11 +259,12 @@ namespace ChessGame
 
         private void PushPiece()
         {
+
             pushNewPiece('a', 1, new Tower(Boar, Color.Black));
             pushNewPiece('b', 1, new Horse(Boar, Color.Black));
             pushNewPiece('c', 1, new Bishop(Boar, Color.Black));
             pushNewPiece('d', 1, new Queen(Boar, Color.Black));
-            pushNewPiece('e', 1, new King(Boar, Color.Black));
+            pushNewPiece('e', 1, new King(Boar, Color.Black, this));
             pushNewPiece('f', 1, new Bishop(Boar, Color.Black));
             pushNewPiece('g', 1, new Horse(Boar, Color.Black));
             pushNewPiece('h', 1, new Tower(Boar, Color.Black));
@@ -240,7 +281,7 @@ namespace ChessGame
             pushNewPiece('b', 8, new Horse(Boar, Color.White));
             pushNewPiece('c', 8, new Bishop(Boar, Color.White));
             pushNewPiece('d', 8, new Queen(Boar, Color.White));
-            pushNewPiece('e', 8, new King(Boar, Color.White));
+            pushNewPiece('e', 8, new King(Boar, Color.White, this));
             pushNewPiece('f', 8, new Bishop(Boar, Color.White));
             pushNewPiece('g', 8, new Horse(Boar, Color.White));
             pushNewPiece('h', 8, new Tower(Boar, Color.White));

@@ -21,7 +21,6 @@ namespace ChessGame
                         Console.WriteLine("Origin: ");
                         Position origin = Screen.ReadPositionChess().ToPosition();
                         game.ValidateOriginPosition(origin);
-
                         bool[,] possiblePosition = game.Boar.setPiece(origin).PossibleMovements();
 
                         // Console.Clear();

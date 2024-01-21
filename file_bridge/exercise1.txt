@@ -1,0 +1,4 @@
+TV LED,1500.0,1
+Chair,500.50,3
+Phone,9000.00,2
+Keyboard,400.0,3

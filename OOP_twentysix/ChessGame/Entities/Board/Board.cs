@@ -58,7 +58,6 @@ namespace ChessGame
 
         public bool validatePosition(Position pos)
         {
-
             if (pos.line < 0 || pos.line >= line || pos.column < 0 || pos.column >= column)
             {
                 return false;
