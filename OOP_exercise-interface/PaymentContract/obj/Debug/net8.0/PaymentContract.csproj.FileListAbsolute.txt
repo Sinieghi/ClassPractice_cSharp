@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\bin\Debug\net8.0\PaymentContract.exe
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\bin\Debug\net8.0\PaymentContract.deps.json
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\bin\Debug\net8.0\PaymentContract.runtimeconfig.json
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\bin\Debug\net8.0\PaymentContract.dll
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\bin\Debug\net8.0\PaymentContract.pdb
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\PaymentContract.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\PaymentContract.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\PaymentContract.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\PaymentContract.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\PaymentContract.sourcelink.json
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\PaymentContract.dll
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\refint\PaymentContract.dll
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\PaymentContract.pdb
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\PaymentContract.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_exercise-interface\PaymentContract\obj\Debug\net8.0\ref\PaymentContract.dll

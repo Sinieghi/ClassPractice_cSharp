@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\bin\Debug\net8.0\Interfaces.exe
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\bin\Debug\net8.0\Interfaces.deps.json
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\bin\Debug\net8.0\Interfaces.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\bin\Debug\net8.0\Interfaces.dll
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\bin\Debug\net8.0\Interfaces.pdb
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\Interfaces.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\Interfaces.sourcelink.json
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\Interfaces.dll
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\refint\Interfaces.dll
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\Interfaces.pdb
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\Interfaces.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirty-interface\Interfaces\obj\Debug\net8.0\ref\Interfaces.dll
