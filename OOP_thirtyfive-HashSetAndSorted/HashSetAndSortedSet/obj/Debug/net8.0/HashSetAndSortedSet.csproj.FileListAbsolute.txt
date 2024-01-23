@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\bin\Debug\net8.0\HashSetAndSortedSet.exe
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\bin\Debug\net8.0\HashSetAndSortedSet.deps.json
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\bin\Debug\net8.0\HashSetAndSortedSet.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\bin\Debug\net8.0\HashSetAndSortedSet.dll
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\bin\Debug\net8.0\HashSetAndSortedSet.pdb
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\HashSetAndSortedSet.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\HashSetAndSortedSet.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\HashSetAndSortedSet.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\HashSetAndSortedSet.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\HashSetAndSortedSet.sourcelink.json
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\HashSetAndSortedSet.dll
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\refint\HashSetAndSortedSet.dll
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\HashSetAndSortedSet.pdb
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\HashSetAndSortedSet.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirtyfive-HashSetAndSorted\HashSetAndSortedSet\obj\Debug\net8.0\ref\HashSetAndSortedSet.dll

@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\bin\Debug\net8.0\HashConcepts.exe
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\bin\Debug\net8.0\HashConcepts.deps.json
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\bin\Debug\net8.0\HashConcepts.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\bin\Debug\net8.0\HashConcepts.dll
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\bin\Debug\net8.0\HashConcepts.pdb
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\HashConcepts.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\HashConcepts.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\HashConcepts.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\HashConcepts.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\HashConcepts.sourcelink.json
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\HashConcepts.dll
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\refint\HashConcepts.dll
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\HashConcepts.pdb
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\HashConcepts.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirtysix-HashSetAndSorted\HashConcepts\obj\Debug\net8.0\ref\HashConcepts.dll

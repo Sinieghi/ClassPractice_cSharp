@@ -1,0 +1,8 @@
+Luiz, 5000.00
+Ana, 4000.00
+Larissa, 666.66
+Gabriela, 3355.00
+Jonas, 4010.00
+Alex, 5050.00
+Henrique, 10000.00
+Debora, 4999.00

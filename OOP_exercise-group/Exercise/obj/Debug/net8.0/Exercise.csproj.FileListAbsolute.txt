@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\Exercise.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\Exercise.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\Exercise.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\Exercise.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\Exercise.sourcelink.json
+e:\doc\c#OOP\OOP_exercise-group\Exercise\bin\Debug\net8.0\Exercise.exe
+e:\doc\c#OOP\OOP_exercise-group\Exercise\bin\Debug\net8.0\Exercise.deps.json
+e:\doc\c#OOP\OOP_exercise-group\Exercise\bin\Debug\net8.0\Exercise.runtimeconfig.json
+e:\doc\c#OOP\OOP_exercise-group\Exercise\bin\Debug\net8.0\Exercise.dll
+e:\doc\c#OOP\OOP_exercise-group\Exercise\bin\Debug\net8.0\Exercise.pdb
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\Exercise.dll
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\refint\Exercise.dll
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\Exercise.pdb
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\Exercise.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_exercise-group\Exercise\obj\Debug\net8.0\ref\Exercise.dll

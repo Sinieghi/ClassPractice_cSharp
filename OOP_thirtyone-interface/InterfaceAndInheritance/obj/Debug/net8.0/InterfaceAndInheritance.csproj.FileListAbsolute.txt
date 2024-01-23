@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\bin\Debug\net8.0\InterfaceAndInheritance.exe
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\bin\Debug\net8.0\InterfaceAndInheritance.deps.json
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\bin\Debug\net8.0\InterfaceAndInheritance.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\bin\Debug\net8.0\InterfaceAndInheritance.dll
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\bin\Debug\net8.0\InterfaceAndInheritance.pdb
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\InterfaceAndInheritance.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\InterfaceAndInheritance.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\InterfaceAndInheritance.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\InterfaceAndInheritance.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\InterfaceAndInheritance.sourcelink.json
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\InterfaceAndInheritance.dll
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\refint\InterfaceAndInheritance.dll
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\InterfaceAndInheritance.pdb
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\InterfaceAndInheritance.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirtyone-interface\InterfaceAndInheritance\obj\Debug\net8.0\ref\InterfaceAndInheritance.dll

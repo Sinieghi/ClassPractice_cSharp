@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\bin\Debug\net8.0\ICompare.exe
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\bin\Debug\net8.0\ICompare.deps.json
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\bin\Debug\net8.0\ICompare.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\bin\Debug\net8.0\ICompare.dll
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\bin\Debug\net8.0\ICompare.pdb
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\ICompare.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\ICompare.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\ICompare.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\ICompare.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\ICompare.sourcelink.json
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\ICompare.dll
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\refint\ICompare.dll
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\ICompare.pdb
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\ICompare.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirtytwo-interface\ICompare\obj\Debug\net8.0\ref\ICompare.dll

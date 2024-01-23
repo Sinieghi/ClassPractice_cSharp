@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\bin\Debug\net8.0\HashcodeAndEquals.exe
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\bin\Debug\net8.0\HashcodeAndEquals.deps.json
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\bin\Debug\net8.0\HashcodeAndEquals.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\bin\Debug\net8.0\HashcodeAndEquals.dll
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\bin\Debug\net8.0\HashcodeAndEquals.pdb
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\HashcodeAndEquals.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\HashcodeAndEquals.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\HashcodeAndEquals.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\HashcodeAndEquals.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\HashcodeAndEquals.sourcelink.json
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\HashcodeAndEquals.dll
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\refint\HashcodeAndEquals.dll
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\HashcodeAndEquals.pdb
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\HashcodeAndEquals.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirtyfour-hashCodeAndEquals\HashcodeAndEquals\obj\Debug\net8.0\ref\HashcodeAndEquals.dll

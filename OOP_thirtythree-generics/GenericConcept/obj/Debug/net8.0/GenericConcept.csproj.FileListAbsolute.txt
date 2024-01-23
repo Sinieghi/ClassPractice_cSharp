@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\bin\Debug\net8.0\GenericConcept.exe
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\bin\Debug\net8.0\GenericConcept.deps.json
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\bin\Debug\net8.0\GenericConcept.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\bin\Debug\net8.0\GenericConcept.dll
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\bin\Debug\net8.0\GenericConcept.pdb
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\GenericConcept.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\GenericConcept.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\GenericConcept.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\GenericConcept.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\GenericConcept.sourcelink.json
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\GenericConcept.dll
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\refint\GenericConcept.dll
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\GenericConcept.pdb
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\GenericConcept.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirtythree-generics\GenericConcept\obj\Debug\net8.0\ref\GenericConcept.dll

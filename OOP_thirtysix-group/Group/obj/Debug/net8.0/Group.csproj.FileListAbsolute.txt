@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirtysix-group\Group\bin\Debug\net8.0\Group.exe
+e:\doc\c#OOP\OOP_thirtysix-group\Group\bin\Debug\net8.0\Group.deps.json
+e:\doc\c#OOP\OOP_thirtysix-group\Group\bin\Debug\net8.0\Group.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirtysix-group\Group\bin\Debug\net8.0\Group.dll
+e:\doc\c#OOP\OOP_thirtysix-group\Group\bin\Debug\net8.0\Group.pdb
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\Group.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\Group.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\Group.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\Group.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\Group.sourcelink.json
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\Group.dll
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\refint\Group.dll
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\Group.pdb
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\Group.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirtysix-group\Group\obj\Debug\net8.0\ref\Group.dll
