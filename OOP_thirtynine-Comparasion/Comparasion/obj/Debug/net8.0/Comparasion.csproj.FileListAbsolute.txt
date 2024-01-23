@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\bin\Debug\net8.0\Comparasion.exe
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\bin\Debug\net8.0\Comparasion.deps.json
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\bin\Debug\net8.0\Comparasion.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\bin\Debug\net8.0\Comparasion.dll
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\bin\Debug\net8.0\Comparasion.pdb
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\Comparasion.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\Comparasion.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\Comparasion.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\Comparasion.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\Comparasion.sourcelink.json
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\Comparasion.dll
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\refint\Comparasion.dll
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\Comparasion.pdb
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\Comparasion.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirtynine-Comparasion\Comparasion\obj\Debug\net8.0\ref\Comparasion.dll

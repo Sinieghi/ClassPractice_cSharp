@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\bin\Debug\net8.0\Extension.exe
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\bin\Debug\net8.0\Extension.deps.json
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\bin\Debug\net8.0\Extension.runtimeconfig.json
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\bin\Debug\net8.0\Extension.dll
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\bin\Debug\net8.0\Extension.pdb
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\Extension.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\Extension.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\Extension.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\Extension.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\Extension.sourcelink.json
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\Extension.dll
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\refint\Extension.dll
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\Extension.pdb
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\Extension.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_thirtyeight-extension\Extension\obj\Debug\net8.0\ref\Extension.dll

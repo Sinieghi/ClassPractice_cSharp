@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\doc\\c#OOP\\OOP_exercise-dictionary\\Exercise\\Exercise.csproj": {}
+    "e:\\doc\\c#OOP\\OOP_thirtyeight-extension\\Extension\\Extension.csproj": {}
   },
   "projects": {
-    "E:\\doc\\c#OOP\\OOP_exercise-dictionary\\Exercise\\Exercise.csproj": {
+    "e:\\doc\\c#OOP\\OOP_thirtyeight-extension\\Extension\\Extension.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\doc\\c#OOP\\OOP_exercise-dictionary\\Exercise\\Exercise.csproj",
-        "projectName": "Exercise",
-        "projectPath": "E:\\doc\\c#OOP\\OOP_exercise-dictionary\\Exercise\\Exercise.csproj",
+        "projectUniqueName": "e:\\doc\\c#OOP\\OOP_thirtyeight-extension\\Extension\\Extension.csproj",
+        "projectName": "Extension",
+        "projectPath": "e:\\doc\\c#OOP\\OOP_thirtyeight-extension\\Extension\\Extension.csproj",
         "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-        "outputPath": "E:\\doc\\c#OOP\\OOP_exercise-dictionary\\Exercise\\obj\\",
+        "outputPath": "e:\\doc\\c#OOP\\OOP_thirtyeight-extension\\Extension\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config"
