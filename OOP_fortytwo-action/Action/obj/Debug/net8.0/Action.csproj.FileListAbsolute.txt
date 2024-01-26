@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_fortytwo-action\Action\bin\Debug\net8.0\Action.exe
+e:\doc\c#OOP\OOP_fortytwo-action\Action\bin\Debug\net8.0\Action.deps.json
+e:\doc\c#OOP\OOP_fortytwo-action\Action\bin\Debug\net8.0\Action.runtimeconfig.json
+e:\doc\c#OOP\OOP_fortytwo-action\Action\bin\Debug\net8.0\Action.dll
+e:\doc\c#OOP\OOP_fortytwo-action\Action\bin\Debug\net8.0\Action.pdb
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\Action.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\Action.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\Action.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\Action.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\Action.sourcelink.json
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\Action.dll
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\refint\Action.dll
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\Action.pdb
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\Action.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_fortytwo-action\Action\obj\Debug\net8.0\ref\Action.dll

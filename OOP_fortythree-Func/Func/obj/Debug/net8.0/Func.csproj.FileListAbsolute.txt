@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_fortythree-Func\Func\bin\Debug\net8.0\Func.exe
+e:\doc\c#OOP\OOP_fortythree-Func\Func\bin\Debug\net8.0\Func.deps.json
+e:\doc\c#OOP\OOP_fortythree-Func\Func\bin\Debug\net8.0\Func.runtimeconfig.json
+e:\doc\c#OOP\OOP_fortythree-Func\Func\bin\Debug\net8.0\Func.dll
+e:\doc\c#OOP\OOP_fortythree-Func\Func\bin\Debug\net8.0\Func.pdb
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\Func.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\Func.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\Func.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\Func.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\Func.sourcelink.json
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\Func.dll
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\refint\Func.dll
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\Func.pdb
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\Func.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_fortythree-Func\Func\obj\Debug\net8.0\ref\Func.dll

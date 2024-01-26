@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\bin\Debug\net8.0\Link.exe
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\bin\Debug\net8.0\Link.deps.json
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\bin\Debug\net8.0\Link.runtimeconfig.json
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\bin\Debug\net8.0\Link.dll
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\bin\Debug\net8.0\Link.pdb
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\Link.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\Link.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\Link.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\Link.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\Link.sourcelink.json
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\Link.dll
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\refint\Link.dll
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\Link.pdb
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\Link.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_fortyfive-Link\Link\obj\Debug\net8.0\ref\Link.dll

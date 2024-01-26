@@ -1,0 +1,15 @@
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\bin\Debug\net8.0\Predicate.exe
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\bin\Debug\net8.0\Predicate.deps.json
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\bin\Debug\net8.0\Predicate.runtimeconfig.json
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\bin\Debug\net8.0\Predicate.dll
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\bin\Debug\net8.0\Predicate.pdb
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\Predicate.GeneratedMSBuildEditorConfig.editorconfig
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\Predicate.AssemblyInfoInputs.cache
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\Predicate.AssemblyInfo.cs
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\Predicate.csproj.CoreCompileInputs.cache
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\Predicate.sourcelink.json
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\Predicate.dll
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\refint\Predicate.dll
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\Predicate.pdb
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\Predicate.genruntimeconfig.cache
+e:\doc\c#OOP\OOP_fortyone-predicate\Predicate\obj\Debug\net8.0\ref\Predicate.dll

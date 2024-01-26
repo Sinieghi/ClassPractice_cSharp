@@ -10,7 +10,6 @@ namespace Practice
     {
         public string v1 = v1;
         public double v2 = v2;
-
         public override string ToString()
         {
             return v1 + ", " + v2.ToString("F1", CultureInfo.InvariantCulture);
